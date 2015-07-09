@@ -1,12 +1,8 @@
-// you can use includes, for example:
-// #include <algorithm>
-
-// you can write to stdout for debugging purposes, e.g.
-// cout << "this is a debug message" << endl;
-
 //
 // Solution for codility test
 // https://codility.com/demo/take-sample-test/missing_integer/
+//
+// Copyright 2015, Sven Anderson <sven(at)anderson.de>
 //
 
 #include <vector>
