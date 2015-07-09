@@ -4,6 +4,11 @@
 // you can write to stdout for debugging purposes, e.g.
 // cout << "this is a debug message" << endl;
 
+//
+// Solution for codility test
+// https://codility.com/demo/take-sample-test/max_double_slice_sum/
+//
+
 #include <vector>
 
 using namespace std;

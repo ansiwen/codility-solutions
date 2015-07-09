@@ -4,6 +4,11 @@
 // you can write to stdout for debugging purposes, e.g.
 // cout << "this is a debug message" << endl;
 
+//
+// Solution for codility test
+// https://codility.com/demo/take-sample-test/number_of_disc_intersections/
+//
+
 #include <vector>
 
 using namespace std;
