@@ -15,7 +15,6 @@ inline int nextDiv(int N, int x) {
             return N;
         }
     }
-    //cout << "nextDiv: " << x << endl;
     return x;
 }
 
@@ -28,16 +27,12 @@ int solution(vector<int> &A) {
     int last_peak = -1;
     int div = nextDiv(N, 1);
     for (int i = 1; i < N; ++i) {
-        //cout << "i: " << i << endl;
         if ( i < N-1 && A[i] > A[i+1] && A[i] > A[i-1]) {
-            //cout << "peak: " << i << endl;
             last_peak = i;
             i = endOfBlock(last_peak, div);
         }
         if ((i+1)%div == 0) {
-            // cout << "just leaving block" << endl;
             if (i-last_peak >= div && div < N) {
-                //cout << "there was no peak in this block, increase div" << endl;
                 div = nextDiv(N, div);
                 if (last_peak != -1) {
                     i = endOfBlock(last_peak, div);
